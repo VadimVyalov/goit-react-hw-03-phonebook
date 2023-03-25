@@ -41,7 +41,7 @@ export class App extends Component {
   componentDidMount() {
     const lsData = loadLS(KEY);
     if (lsData) {
-      this.setState({ ['contacts']: lsData });
+      this.setState({ contacts: lsData });
     }
   }
 
