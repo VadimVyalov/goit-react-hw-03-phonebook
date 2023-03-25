@@ -1,6 +1,7 @@
-{ "compilerOptions": {
+{
+  "compilerOptions": {
     "baseUrl": "src"
   },
   "include": ["src"],
-  "editor.renameOnType": true,
+  "editor.renameOnType": true
 }
